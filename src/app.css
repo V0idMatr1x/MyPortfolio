@@ -14,7 +14,6 @@ body {
 }
 
 /* Layout */
-
 .nav-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -40,9 +39,11 @@ a {
 }
 
 .showcase-container {
-   width: 100%;
-   height: 100vh;
-   background-color: #333;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 1rem;
+    width: 100%;
+    height: 100vh;
 }
 
 .footer-container {
