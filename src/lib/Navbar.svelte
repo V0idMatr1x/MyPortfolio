@@ -12,7 +12,7 @@
       <a href="https://github.com/V0idMatr1x" target="_blank" rel="noopener noreferrer"><i class={githubIcon}></i></a>
     </li>
     <li>
-      <a href="mailto:matr1xware@v0idmatr1x.com">Hire Me? <i class={emailIcon}></i></a>
+      <a href="mailto:matr1xware@v0idmatr1x.com"><i class={emailIcon}></i></a>
     </li>
   </ul>
 </nav>
