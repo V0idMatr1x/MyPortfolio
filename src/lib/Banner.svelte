@@ -1,6 +1,6 @@
 <div class="skill-banner">
     <div class="skill-banner__content">
-        <ul class="banner-items">
+        <ul>
             <li id="skill">Enterprise Development</li>
             <li id="skill">Full Stack</li>
             <li id="skill">Research</li>
