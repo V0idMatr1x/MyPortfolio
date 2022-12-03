@@ -46,6 +46,7 @@ a {
     justify-content: center;
     align-items: center;
     background-color: black;
+    z-index: 1;
 }
 
 .banner-items {
@@ -56,10 +57,10 @@ a {
 }
 
 #skill {
-    display: block;
-    width: fit-content;
+    display: grid;
+    grid-template-columns: 1fr;
     color: white;
-    font-size: small;
+    font-size: x-small;
 }
 
 .showcase-container {
