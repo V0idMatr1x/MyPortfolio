@@ -8,10 +8,12 @@
 </script>
 
 <main>
-    <div class="showcase-container">
-        <div class="showcase-intro">
-            <h2>{introHeader}</h2>
-            <p><Typewriter>{introText}</Typewriter></p>
+    <div class="bg-wrapper">
+        <div class="showcase-container">
+            <div class="showcase-intro">
+                <h2>{introHeader}</h2>
+                <p><Typewriter>{introText}</Typewriter></p>
+            </div>
         </div>
     </div>
 </main>

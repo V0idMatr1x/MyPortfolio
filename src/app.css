@@ -58,6 +58,15 @@ a {
     justify-content: center;
     padding: 1rem;
     text-shadow: black 1px 0px 1px;
+    text-rendering: optimizeLegibility;
+}
+
+.bg-wrapper {
+    background-image: url(/src/assets/img/bg.svg);
+    background-size: cover;
+    background-color: center;
+    background-repeat: no-repeat;
+    image-rendering: optimizeQuality;
 }
 
 .footer-container {
