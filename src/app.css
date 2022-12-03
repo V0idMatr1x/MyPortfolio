@@ -56,6 +56,8 @@ a {
 }
 
 #skill {
+    display: block;
+    width: fit-content;
     color: white;
     font-size: small;
 }
