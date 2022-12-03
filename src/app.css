@@ -101,6 +101,7 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     image-rendering: optimizeQuality;
+    image-rendering: optimizeSpeed;
 }
 
 .footer-container {
