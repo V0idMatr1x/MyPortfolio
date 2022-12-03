@@ -2,9 +2,7 @@
     import Typewriter from 'svelte-typewriter';
     
     const introHeader: string = "I am...";
-    const introText: string = "A Software Engineering Professional & Hacker of Things..";
-
-    
+    const introText: string = "A Software Engineering Professional & Hacker of Things..";  
 </script>
 
 <main>

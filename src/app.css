@@ -41,6 +41,26 @@ a {
     color: #333;
 }
 
+.skill-banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    z-index: 1;
+}
+
+.banner-items {
+    padding: 1rem;
+    justify-content: space-between;
+    text-shadow: black 1px 1px 1px;
+    text-rendering: optimizeLegibility;
+}
+
+#skill {
+    color: white;
+    font-size: small;
+}
+
 .showcase-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -68,7 +88,6 @@ a {
     height: fit-content;
     background-image: url(/src/assets/img/bg.svg);
     background-size: cover;
-    background-color: center;
     background-repeat: no-repeat;
     image-rendering: optimizeQuality;
 }
