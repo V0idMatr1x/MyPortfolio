@@ -46,8 +46,16 @@ a {
     justify-content: center;
     align-items: center;
     background-color: black;
-    width: 100%;
-    z-index: 5;
+}
+
+.skill-banner__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    overflow: hidden;
+    width: fit-content;
+    z-index: 2;
 }
 
 .banner-items {
