@@ -62,6 +62,10 @@ a {
 }
 
 .bg-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 2fr;
+    width: fit-content;
+    height: fit-content;
     background-image: url(/src/assets/img/bg.svg);
     background-size: cover;
     background-color: center;
