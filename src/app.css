@@ -47,6 +47,7 @@ a {
     align-items: center;
     background-color: black;
     width: 100%;
+    z-index: 3;
 }
 
 .banner-items {
