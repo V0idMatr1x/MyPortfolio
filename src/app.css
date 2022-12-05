@@ -41,7 +41,6 @@ body {
 #call-to__action {
     display: flex;
     flex-direction: column;
-    position: fixed;
     background-color: #fff;
     opacity: 0.7;
     color: black;
