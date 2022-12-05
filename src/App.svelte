@@ -1,13 +1,13 @@
 <script lang="ts">
   import NavBar from './lib/Navbar.svelte';
   import Banner from './lib/Banner.svelte';
-  import Showcase from './lib/Showcase.svelte';
+  import Landing from './lib/Landing.svelte';
   import Footer from './lib/Footer.svelte';
 </script>
 
 <div>
   <NavBar />
   <Banner />
-  <Showcase />
+  <Landing />
   <Footer />
 </div>
