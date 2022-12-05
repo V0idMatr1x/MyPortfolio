@@ -59,6 +59,14 @@ a {
     justify-content: center;
     overflow: hidden;
     z-index: auto;
+    padding: 1rem;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
 }
 
 #skill {
