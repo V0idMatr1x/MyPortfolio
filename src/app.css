@@ -70,25 +70,12 @@ a {
     padding: 1rem;
 }
 
-.skill-list {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-}
-
 #skill {
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr;
+    font-size: small;
     color: #fff;
-    font-size: x-small;
-}
-
-#skill:hover {
-    border-radius: 5px;
-    color: #000;
-    background-color: #ecf0f3;
 }
 
 .showcase-container {

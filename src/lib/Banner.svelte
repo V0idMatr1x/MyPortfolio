@@ -1,17 +1,21 @@
+<script lang="ts">
+    const skill: Array<string> = [];
+    
+    skill.push("Enterprise Development");
+    skill.push(" Software Optimization");
+    skill.push(" Systems Programming");
+    skill.push(" Desktop Applications");
+    skill.push(" Full Stack Web");
+    skill.push(" Linux");
+    skill.push(" Cybersecurity");
+    skill.push(" DevOps (CI/CD)");
+    skill.push(" Research");
+    skill.push(" Problem Solving");
+    skill.push(" Agile");
+</script>
+
 <div class="skill-banner">
     <div class="skill-banner__content">
-        <ul class="skill-list">
-            <li id="skill">Enterprise Development</li>
-            <li id="skill">Software Architecture</li>
-            <li id="skill">Software Optimization</li>
-            <li id="skill">Systems Programming</li>
-            <li id="skill">Full Stack</li>
-            <li id="skill">Linux</li>
-            <li id="skill">Cybersecurity</li>
-            <li id="skill">DevOps (CI/CD)</li>
-            <li id="skill">Research</li>
-            <li id="skill">Problem Solving</li>
-            <li id="skill">Agile</li>
-        </ul>
+        <p id="skill">{skill.map(skill => skill).join(" |")}</p>
     </div>
 </div>
