@@ -18,6 +18,13 @@ body {
     text-rendering: optimizeLegibility;
 }
 
+@media
+(prefers-reduced-motion: no-preference) {
+  html {
+    scroll-behavior: smooth;
+  }
+}
+
 /* Layout */
 .nav-container {
     font-family: 'Zen Dots', sans-serif;
@@ -28,13 +35,6 @@ body {
     position: sticky;
     top: 0px;
     z-index: auto;
-}
-
-@media
-(prefers-reduced-motion: no-preference) {
-  html {
-    scroll-behavior: smooth;
-  }
 }
 
 ul {
