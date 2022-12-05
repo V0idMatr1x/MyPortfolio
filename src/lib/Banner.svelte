@@ -1,7 +1,7 @@
 <script lang="ts">
     const skill: Array<string> = [];
     
-    skill.push("Enterprise Development");
+    skill.push(" Enterprise Development");
     skill.push(" Software Optimization");
     skill.push(" Systems Programming");
     skill.push(" Desktop Applications");
@@ -16,6 +16,6 @@
 
 <div class="skill-banner">
     <div class="skill-banner__content">
-        <p id="skill">{skill.map(skill => skill).join(" |")}</p>
+        <p id="skill">Skills: {skill.map(skill => skill).join(" |")}</p>
     </div>
 </div>
