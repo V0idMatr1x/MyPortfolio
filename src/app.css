@@ -37,6 +37,17 @@ body {
     z-index: auto;
 }
 
+#call-to__action {
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    color: #fff;
+    text-decoration: underline;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
 ul {
     list-style-type: none;
     display: flex;
