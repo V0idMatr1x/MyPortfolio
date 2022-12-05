@@ -1,5 +1,5 @@
 <script lang="ts">
-    //let staticYear: number = 2022;
+    //const staticYear: number = 2022;
     let currentYear: number = new Date().getFullYear();
     const branding: string = "V0idMatr1x";
 </script>
