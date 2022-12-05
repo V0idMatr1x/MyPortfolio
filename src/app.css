@@ -119,6 +119,17 @@ a {
     background-repeat: no-repeat;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    margin: 1rem;
+    height: fit-content;
+    text-shadow: black 1px 0px 1px;
+}
+
 .footer-container {
     position: fixed;
     left: 0;
