@@ -31,7 +31,7 @@ body {
     display: grid;
     grid-template-columns: 1fr 1fr;
     background-color: #fff;
-    box-shadow: black 3px 3px 3px;
+    box-shadow: black 1px 1px 1px;
     padding: 1rem;
     position: sticky;
     top: 0px;
