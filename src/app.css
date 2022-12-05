@@ -81,13 +81,14 @@ a {
     padding: 1rem;
     display: grid;
     grid-template-columns: 1fr;
-    color: white;
+    color: #fff;
     font-size: x-small;
 }
 
 #skill:hover {
-    border: #ecf0f3 1px solid;
     border-radius: 5px;
+    color: #000;
+    background-color: #ecf0f3;
 }
 
 .showcase-container {
