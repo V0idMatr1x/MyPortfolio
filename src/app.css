@@ -85,6 +85,11 @@ a {
     font-size: x-small;
 }
 
+#skill:hover {
+    border: #ecf0f3 1px solid;
+    border-radius: 5px;
+}
+
 .showcase-container {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
