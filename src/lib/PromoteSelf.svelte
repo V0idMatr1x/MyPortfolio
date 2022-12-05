@@ -3,6 +3,6 @@
     const emailLink: string = "mailto:matr1xware@v0idmatr1x.com";
 </script>
 
-<div class="protion-container">
+<div>
     <a id="call-to__action" href={emailLink}>{callToAction}</a>
 </div>
