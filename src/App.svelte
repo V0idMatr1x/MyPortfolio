@@ -7,7 +7,7 @@
 
 <div>
   <NavBar />
-  <Banner />
   <Landing />
+  <Banner />
   <Footer />
 </div>
