@@ -6,6 +6,6 @@
 
 <div class="footer-container">
     <footer>
-        <p>&copy; {branding} {staticYear}:{currentYear}</p>
+        <p>&copy; {branding} {staticYear}-{currentYear}</p>
     </footer>
 </div>
